@@ -1,18 +1,16 @@
 ## Yauheni Safronau
 
----
-
 ### Junior Frontend Developer
 
 ---
 
 ### Contact information:
 
-**Phone:** + 48 532 078 477 (Poland)
-**E-mail:** ysafronau26@gmail.com
-**Telegram:** @esafronov25
-[LinkedIn](https://www.linkedin.com/in/yauheni-safronau-03aaa1234/)
-[GitHub](https://github.com/ysafronau)
+- **Phone:** + 48 532 078 477 (Poland)
+- **E-mail:** ysafronau26@gmail.com
+- **Telegram:** @esafronov25
+- [LinkedIn](https://www.linkedin.com/in/yauheni-safronau-03aaa1234/)
+- [GitHub](https://github.com/ysafronau)
 
 ---
 
@@ -54,7 +52,7 @@ function numberOfPairs(gloves)
 
 1. [freecodecamp.org](https://www.freecodecamp.org/) (in progress)
    - [Responsive Web Design](https://freecodecamp.org/certification/fcc99d90efb-4b96-44bd-b12e-df56df6d0b74/responsive-web-design) Certificate
-   - [JavaScript Algorithms and Data Structures](https://freecodecamp.org/certification/fcc99d90efb-4b96-44bd-b12e-df56df6d0b74/javascript-algorithms-and-data-structures)Certificate
+   - [JavaScript Algorithms and Data Structures](https://freecodecamp.org/certification/fcc99d90efb-4b96-44bd-b12e-df56df6d0b74/javascript-algorithms-and-data-structures) Certificate
 2. JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 3. RS Schools Course [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) (in progress)
 
