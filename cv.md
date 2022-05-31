@@ -48,6 +48,8 @@ function numberOfPairs(gloves)
 }
 ```
 
+---
+
 ### Courses:
 
 1. [freecodecamp.org](https://www.freecodecamp.org/) (in progress)
@@ -66,4 +68,4 @@ function numberOfPairs(gloves)
 
 ---
 
-> “I have not failed. I’ve just found 10,000 ways that won’t work.” :smiley_cat:
+> “I have not failed. I’ve just found 10,000 ways that won’t work.”
