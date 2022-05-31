@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My HTML CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="title">Yauheni Safronau</h1>
+      </header>
+      <section class="profession">
+        <h3>Junior Frontend Developer</h3>
+      </section>
+      <section class="contact">
+        <h3>Contact information:</h3>
+        <ul>
+          <li>Phone: + 48 532 078 477 (Poland)</li>
+          <li>E-mail: ysafronau26@gmail.com</li>
+          <li>Telegram: @esafronov25</li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yauheni-safronau-03aaa1234/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/ysafronau" target="_blank">Github</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <h3>Briefly About Myself:</h3>
+        <p>
+          Hello, my name is Yauheni Safronau. I'm 26 years old. And I'm from
+          Belarus. I don't have a lot to say. But I'm trying to do my best and
+          find something in what I'm good at. This is why I attend this course,
+          to make my dreams come true. Wish me good luck on this hard way.
+        </p>
+      </section>
+      <section class="skills">
+        <h3>Skills and Proficiency:</h3>
+        <ul>
+          <li>HTML5, CSS3</li>
+          <li>JavaScript Basics</li>
+          <li>Git, Github</li>
+          <li>VS Code</li>
+        </ul>
+      </section>
+      <section class="code">
+        <h3>Code example:</h3>
+        <p>CODEWARS task "Pair of gloves":</p>
+        <p>
+          Winter is coming, you must prepare your ski holidays. The objective of
+          this kata is to determine the number of pair of gloves you can
+          constitute from the gloves you have in your drawer.
+        </p>
+        <p>
+          Given an array describing the color of each glove, return the number
+          of pairs you can constitute, assuming that only gloves of the same
+          color can form pairs.
+        </p>
+        <pre>
+            <code>
+function numberOfPairs(gloves) {
+  const obj = gloves.reduce((obj,el) => {
+    obj[el] = (obj[el] || 0) + 1
+    return obj;
+  }, {})
+  return Object.values(obj).map(el => Math.floor(el / 2)).reduce((acc, el) => acc + el, 0)
+}
+            </code>
+        </pre>
+      </section>
+      <section class="courses">
+        <h3>Courses:</h3>
+        <ul>
+          <li>
+            <a href="https://www.freecodecamp.org/" target="_blank"
+              >Free Code Camp</a
+            >
+          </li>
+          <li>
+            <a href="https://learn.javascript.ru/" target="_blank"
+              >Learn JavaScript</a
+            >
+          </li>
+          <li>
+            <a href="https://rs.school/js-stage0" target="_blank"
+              >Rolling Scope School Stage 0</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="languages">
+        <h3>Languages:</h3>
+        <ul>
+          <li>English - A2</li>
+          <li>Russian - Native</li>
+          <li>Polish - Basic</li>
+        </ul>
+      </section>
+      <section class="quote">
+        <quote
+          ><em>
+            "When a programmer first creates his code, only he and God know how
+            it works, a few months down the line and only God knows"</em
+          ></quote
+        >
+      </section>
+    </main>
+  </body>
+</html>
