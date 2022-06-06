@@ -16,8 +16,6 @@ body {
 main {
   margin: 20px 30%;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
   position: relative;
 }
 
@@ -25,7 +23,7 @@ main {
   position: absolute;
   width: 100%;
   height: 100px;
-  top: 100px;
+  top: 50px;
   left: 0px;
   background-color: #868064;
   display: flex;
@@ -72,10 +70,39 @@ main {
   font-weight: bold;
 }
 
-section h3 {
-  margin-bottom: 10px;
+.left-side {
+  width: 30%;
+  background-color: #000;
 }
 
+.contact {
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact h3 {
+  text-align: center;
+  margin: 0 8px;
+  border-bottom: 2px solid #fff;
+  color: #868064;
+}
+
+.contact ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.contact ul li {
+  display: flex;
+  gap: 10px;
+}
+
+.contact ul li i {
+  color: #fff;
+}
 section ul {
   margin-left: 15px;
 }
