@@ -88,7 +88,8 @@ main {
 }
 
 .contact h3,
-.skills h3 {
+.skills h3,
+.languages h3 {
   text-align: center;
   margin: 0 8px;
   border-bottom: 2px solid #fff;
@@ -110,18 +111,47 @@ main {
   color: #fff;
 }
 
-.skills {
+.skills,
+.languages {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.skills ul {
+.skills ul,
+.languages ul {
   display: flex;
   flex-direction: column;
   color: #fff;
   gap: 10px;
   padding: 8px;
+}
+
+.english-language,
+.russian-language {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.width-container {
+  height: 4px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.english-language .width-container .width {
+  background-color: #868064;
+  width: 25%;
+  height: 4px;
+  z-index: 10;
+}
+
+.russian-language .width-container .width {
+  height: 4px;
+  width: 100%;
+  z-index: 10;
+  background-color: #868064;
 }
 
 section ul {
