@@ -73,6 +73,11 @@ main {
 .left-side {
   width: 30%;
   background-color: #000;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .contact {
@@ -82,7 +87,8 @@ main {
   gap: 10px;
 }
 
-.contact h3 {
+.contact h3,
+.skills h3 {
   text-align: center;
   margin: 0 8px;
   border-bottom: 2px solid #fff;
@@ -103,6 +109,21 @@ main {
 .contact ul li i {
   color: #fff;
 }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 10px;
+  padding: 8px;
+}
+
 section ul {
   margin-left: 15px;
 }
