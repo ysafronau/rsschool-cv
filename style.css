@@ -37,7 +37,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 38px;
+  padding: 0 calc((60vw * 0.3 - 200px) / 2);
 }
 
 .photo-cv {
@@ -95,9 +95,9 @@ main {
   gap: 15px;
 }
 
-.contact h3,
-.skills h3,
-.languages h3 {
+.contact h2,
+.skills h2,
+.languages h2 {
   text-align: center;
   margin: 0 15px;
   border-bottom: 2px solid #fff;
@@ -208,8 +208,30 @@ main {
   padding-bottom: 30px;
 }
 
-.about {
+nav {
   margin-top: 180px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #003300;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.about {
   padding: 0 20px 0 30px;
   line-height: 1.3;
   display: flex;
@@ -217,9 +239,9 @@ main {
   gap: 15px;
 }
 
-.about h3,
-.code h3,
-.education h3 {
+.about h2,
+.code h2,
+.education h2 {
   font-size: 24px;
   color: #868064;
 }
@@ -272,7 +294,7 @@ main {
 }
 
 footer {
-  height: 10vh;
+  height: 8vh;
   background-color: #868064;
   color: #fff;
   display: flex;
