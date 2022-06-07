@@ -14,9 +14,22 @@
   <body>
     <div class="content">
       <main>
+        <div class="header">
+          <img src="assets/Portrait.jpg" alt="CV Photo" class="photo-cv" />
+          <header>
+            <h1 class="title">
+              <span>Yauheni</span>
+              <span>Safronau</span>
+            </h1>
+          </header>
+          <div class="profession">
+            <span>Junior</span>
+            <span>Frontend Developer</span>
+          </div>
+        </div>
         <div class="left-side">
-          <section class="contact">
-            <h3>Contact:</h3>
+          <section class="contact" id="contact">
+            <h2>Contact:</h2>
             <ul>
               <li>
                 <a href="tel:+48532078477"
@@ -42,8 +55,8 @@
               </li>
             </ul>
           </section>
-          <section class="skills">
-            <h3>Skills:</h3>
+          <section class="skills" id="skills">
+            <h2>Skills:</h2>
             <ul>
               <li>HTML5, CSS3</li>
               <li>JavaScript Basics</li>
@@ -51,8 +64,8 @@
               <li>VS Code</li>
             </ul>
           </section>
-          <section class="languages">
-            <h3>Languages:</h3>
+          <section class="languages" id="languages">
+            <h2>Languages:</h2>
             <ul>
               <li>
                 <div class="english-language">
@@ -74,8 +87,17 @@
           </section>
         </div>
         <div class="right-side">
-          <section class="about">
-            <h3>Briefly About Myself:</h3>
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#languages">Languages</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <section class="about" id="about">
+            <h2>Briefly About Myself:</h2>
             <p>
               Hello, my name is Yauheni Safronau. I'm 26 years old. And I'm from
               Belarus. I don't have a lot to say. But I'm trying to do my best
@@ -86,7 +108,7 @@
           </section>
 
           <section class="code">
-            <h3>Code example:</h3>
+            <h2>Code example:</h2>
             <p>
               CODEWARS task
               <a
@@ -109,8 +131,8 @@
   </pre
             >
           </section>
-          <section class="education">
-            <h3>Education:</h3>
+          <section class="education" id="education">
+            <h2>Education:</h2>
             <div class="education-content">
               <h4>2002 - 2012</h4>
               <h5>Student</h5>
@@ -123,23 +145,12 @@
             </div>
           </section>
         </div>
-        <div class="header">
-          <img src="assets/Portrait.jpg" alt="CV Photo" class="photo-cv" />
-          <header>
-            <h1 class="title">
-              <span>Yauheni</span>
-              <span>Safronau</span>
-            </h1>
-          </header>
-          <div class="profession">
-            <span>Junior</span>
-            <span>Frontend Developer</span>
-          </div>
-        </div>
       </main>
       <footer>
-        <span>&copy 2022 by Yauheni Safronau</span>
-        <a href="https://github.com/ysafronau" target="_blank"
+        <span>&copy; 2022 by Yauheni Safronau</span>
+        <a
+          href="https://github.com/ysafronau/rsschool-cv/tree/main"
+          target="_blank"
           ><i class="fa-brands fa-github"></i
         ></a>
         <a href="https://rs.school/js/" target="_blank" class="rs-school">
