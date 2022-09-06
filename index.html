@@ -15,7 +15,7 @@
     <div class="content">
       <main>
         <div class="header">
-          <img src="assets/Portrait.jpg" alt="CV Photo" class="photo-cv" />
+          <img src="assets/Portrait.jpg" alt="CV Photo" class="photo-cv">
           <header>
             <h1 class="title">
               <span>Yauheni</span>
@@ -32,23 +32,23 @@
             <h2>Contact:</h2>
             <ul>
               <li>
-                <a href="tel:+48532078477"
+                <a aria-label="telephone" href="tel:+48532078477" target="_blank"
                   ><i class="icon fa-solid fa-phone"></i
                 ></a>
               </li>
               <li>
-                <a href="mailto:ysafronau26@gmail.com"
+                <a aria-label="mail" href="mailto:ysafronau26@gmail.com" target="_blank"
                   ><i class="icon fa-solid fa-envelope"></i
                 ></a>
               </li>
               <li>
-                <a href="https://telegram.me/@esafronov25" target="_blank"
+                <a aria-label="telegram" href="https://telegram.me/@esafronov25" target="_blank"
                   ><i class="icon fa-brands fa-telegram"></i
                 ></a>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/yauheni-safronau-03aaa1234/"
+                aria-label="linkedIn" href="https://www.linkedin.com/in/yauheni-safronau-03aaa1234/"
                   target="_blank"
                   ><i class="icon fa-brands fa-linkedin"></i
                 ></a>
@@ -120,13 +120,13 @@
             <pre class="code-example">
 
   function numberOfPairs(gloves) {
-    const obj = gloves.reduce((obj, el) => {
+    const obj = gloves.reduce((obj, el) =&gt {
       obj[el] = (obj[el] || 0) + 1;
       return obj;
     }, {});
    return Object.values(obj)
-      .map((el) => Math.floor(el / 2))
-      .reduce((acc, el) => acc + el, 0);
+      .map((el) =&gt Math.floor(el / 2))
+      .reduce((acc, el) =&gt acc + el, 0);
   }
   </pre
             >
@@ -149,11 +149,12 @@
       <footer>
         <span>&copy; 2022 by Yauheni Safronau</span>
         <a
+          aria-label="gitHub"
           href="https://github.com/ysafronau/rsschool-cv/tree/main"
           target="_blank"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <a href="https://rs.school/js/" target="_blank" class="rs-school">
+        <a aria-label="rolling scope school" href="https://rs.school/js/" target="_blank" class="rs-school">
           <svg
             class="rsschool"
             width="80"
