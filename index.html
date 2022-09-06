@@ -120,13 +120,13 @@
             <pre class="code-example">
 
   function numberOfPairs(gloves) {
-    const obj = gloves.reduce((obj, el) =&gt {
+    const obj = gloves.reduce((obj, el) =&gt; {
       obj[el] = (obj[el] || 0) + 1;
       return obj;
     }, {});
    return Object.values(obj)
-      .map((el) =&gt Math.floor(el / 2))
-      .reduce((acc, el) =&gt acc + el, 0);
+      .map((el) =&gt; Math.floor(el / 2))
+      .reduce((acc, el) =&gt; acc + el, 0);
   }
   </pre
             >
